@@ -12,6 +12,6 @@ the same technologies?” “I really like JavaScript; can I use it in Data Anal
 
 Those are some of the questions that our students ask.
 
-Could you please develop a data-driven solution for our students to answer such
-questions? They mostly want to understand the relationships between the jobs and
+We aim to develop a data-driven solution for our students to answer such
+questions ,  They mostly want to understand the relationships between the jobs and
 the technologies.
