@@ -1,39 +1,12 @@
-import re
-import nltk
-nltk.download('stopwords')
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import pandas as pd
-from IPython.display import Image, display, HTML
-nltk.download('punkt')
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import requests
-from sentence_transformers import SentenceTransformer
-import seaborn as sns
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.cluster import KMeans
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.decomposition import PCA
 import streamlit as st
-from streamlit import components
-from PIL import Image
-from io import BytesIO
 import pickle
-import streamlit as st
-from PIL import Image
-import imghdr
-import os
-import time
 import plotly.express as px
+import pandas as pd
 
 @st.cache_data
 def load_skills():
-    file_path1 = r'E:\Coursera\Deena Girguis Project\streamlit\skills.pkl'  # Path to the pickle file
-    file_path2 = r'E:\Coursera\Deena Girguis Project\streamlit\normalized_skills.pkl'  # Path to the pickle file
+    file_path1 = 'skills.pkl'  # Path to the pickle file
+    file_path2 = 'normalized_skills.pkl'  # Path to the pickle file
 
     with open(file_path1, 'rb') as file:
         skills = pickle.load(file)
@@ -45,7 +18,7 @@ def load_skills():
 
 @st.cache_data
 def load_data():
-    file_path = r'E:\Coursera\Deena Girguis Project\streamlit\df.pkl'  # Path to the pickle file
+    file_path = 'df.pkl'  # Path to the pickle file
     with open(file_path, 'rb') as file:
         df = pickle.load(file)
     return df
@@ -92,8 +65,6 @@ def run():
     search_button = st.button("Go")
     if search_button:
         single_role_skills = get_skills(role)
-        #st.sidebar.title("Bar Chart Configuration")
-        #role = st.sidebar.text_input("Role", value=role)
 
         fig = px.bar(
             df,
