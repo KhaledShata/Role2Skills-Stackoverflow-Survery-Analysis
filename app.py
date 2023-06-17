@@ -38,7 +38,7 @@ def get_skills(role):
 
 def run():
     st.markdown('<h1 class="title">Role2Skills</h1>', unsafe_allow_html=True)
-    st.markdown('<h2> Based on Stackoverflow Developers  Survey</h2>', unsafe_allow_html=True)
+    st.markdown('<h4> Based on Stackoverflow Developers  Survey</h4>', unsafe_allow_html=True)
 
     role = st.selectbox("Select Role :",
                        ['Data scientist or machine learning specialist', 'Academic researcher',
