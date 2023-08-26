@@ -15,3 +15,5 @@ Those are some of the questions that our students ask.
 We aim to develop a data-driven solution for our students to answer such
 questions ,  They mostly want to understand the relationships between the jobs and
 the technologies.
+
+Feel free to try the model from here : https://khaledatef00-stackoverflow-survery-analysis-app-ngoqc8.streamlit.app/
