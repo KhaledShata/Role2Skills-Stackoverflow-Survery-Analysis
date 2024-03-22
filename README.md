@@ -20,9 +20,10 @@ Feel free to try the model from here: https://khaledatef00-stackoverflow-survery
 
 
 ![Screenshot from 2024-03-22 05-42-59](https://github.com/KhaledAtef00/Stackoverflow-Survery-Analysis/assets/105244576/48d5b00c-fe31-4f55-adb0-42d3740834db)
-
+**________________________________________________________________________________________________**
 
 ![Screenshot from 2024-03-22 05-42-40](https://github.com/KhaledAtef00/Stackoverflow-Survery-Analysis/assets/105244576/3b185d17-3b36-4ad7-80dc-1a4f0d2b720e)
+**________________________________________________________________________________________________**
 
 
 ![Screenshot from 2024-03-22 05-43-39](https://github.com/KhaledAtef00/Stackoverflow-Survery-Analysis/assets/105244576/d2cb16c5-3e47-4002-9a30-8d192d251c8b)
