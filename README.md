@@ -1,4 +1,5 @@
 # Stack Overflow Developers Survey Analysis
+[Screencast from 10-22-2025 03:38:07 PM.webm](https://github.com/user-attachments/assets/1dadcf8e-5211-4dad-86c8-b67fdff0f20e)
 
 ## Project Overview
 This project explores the dynamic relationship between various IT jobs and the technologies associated with them. Aimed at helping anyone struggling to understand the evolving IT landscape, it provides data-driven insights into which skills are necessary for specific job roles. This is particularly useful for students who are uncertain about the technologies they should learn for different IT careers.
@@ -25,13 +26,3 @@ The methodology encompassed a comprehensive approach to data handling and analys
 - Streamlit for deploying the interactive web application.
 
 Feel free to try the model from here: https://khaledatef00-stackoverflow-survery-analysis-app-ngoqc8.streamlit.app/
-
-## Example of Running the Model:
-![Screenshot from 2024-03-22 05-42-59](https://github.com/KhaledAtef00/Stackoverflow-Survery-Analysis/assets/105244576/48d5b00c-fe31-4f55-adb0-42d3740834db)
-**________________________________________________________________________________________________**
-
-![Screenshot from 2024-03-22 05-42-40](https://github.com/KhaledAtef00/Stackoverflow-Survery-Analysis/assets/105244576/3b185d17-3b36-4ad7-80dc-1a4f0d2b720e)
-**________________________________________________________________________________________________**
-
-
-![Screenshot from 2024-03-22 05-43-39](https://github.com/KhaledAtef00/Stackoverflow-Survery-Analysis/assets/105244576/d2cb16c5-3e47-4002-9a30-8d192d251c8b)
